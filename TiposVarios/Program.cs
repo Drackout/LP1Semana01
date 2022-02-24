@@ -6,7 +6,11 @@ namespace TiposVarios
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int intSimple= 9;
+            uint uIntSimple = 8;
+            
+            Console.WriteLine("Int -> " + intSimple);
+            Console.WriteLine("UInt -> " + uIntSimple);
         }
     }
 }
