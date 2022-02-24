@@ -2,9 +2,11 @@
 
 namespace Projeto1
 {
-    ///class Program
+    /// class program
+    class Program
     {
-        ///static void Main(string[] args)
+        /// main
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Bye World!");
