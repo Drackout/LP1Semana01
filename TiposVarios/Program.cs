@@ -25,6 +25,12 @@ namespace TiposVarios
             float floatSimple = 8.235f;
             Console.WriteLine("Int -> " + doubleSimple);
             Console.WriteLine("UInt -> " + floatSimple);
+
+            //Booleans
+            bool bool1Simple= true;
+            bool bool2Simple= false;
+            Console.WriteLine("bool1Simple -> " + bool1Simple);
+            Console.WriteLine("bool2Simple -> " + bool2Simple);
         }
     }
 }
