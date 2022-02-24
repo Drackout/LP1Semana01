@@ -2,10 +2,15 @@
 
 namespace Projeto1
 {
-    /// class program
+    /// <summary>
+    /// CLASS
+    /// </summary>
     class Program
     {
-        /// main
+        /// <summary>
+        /// MAIN
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
