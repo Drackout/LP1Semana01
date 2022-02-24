@@ -20,6 +20,11 @@ namespace TiposVarios
             Console.WriteLine("CharTwo -> " + charSimpleTwo);
             Console.WriteLine("CharThree -> " + charSimpleThree);
 
+            //reais
+            double doubleSimple= 9.125;
+            float floatSimple = 8.235f;
+            Console.WriteLine("Int -> " + doubleSimple);
+            Console.WriteLine("UInt -> " + floatSimple);
         }
     }
 }
