@@ -6,7 +6,13 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string str1 = "Batatas";
+            string str2 = @"verstring args:\ \\ "" main void and such";
+            string str3 = "\u01A9\u02A9\u03A9";
+            
+            Console.WriteLine(str1);
+            Console.WriteLine(str2);
+            Console.WriteLine(str3);
         }
     }
 }
