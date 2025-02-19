@@ -19,6 +19,14 @@ namespace VariousTypes
             Console.WriteLine(unic1);
             Console.WriteLine(unic2);
             Console.WriteLine(unic3);
+
+            float real1 = 1.2456f;
+            decimal real2 = 14.555m;
+            double real3 = 68.419d;
+            Console.WriteLine(unic1);
+            Console.WriteLine(unic2);
+            Console.WriteLine(unic3);
+
         }
     }
 }
