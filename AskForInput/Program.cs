@@ -6,19 +6,14 @@ namespace AskForInput
     {
         private static void Main(string[] args)
         {
-            string userTxt;
-            int intCon;
-            float floatConverted;
+            int intC;
+            float floatC;
 
-            userTxt = Console.ReadLine();
-            intConverted = Convert.ToInt16(userTxt);
+            intC = Convert.ToInt16(Console.ReadLine());
 
-            userTxt = Console.ReadLine();
-            floatConverted = float.Parse(userTxt);
+            floatC = float.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Sum of {intConverted} + {floatConverted} = {intConverted + floatConverted}");
-
-
+            Console.WriteLine($"Sum of {intC}+{floatC}={intC+floatC}");
         }
     }
 }
