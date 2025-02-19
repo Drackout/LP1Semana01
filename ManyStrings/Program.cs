@@ -7,9 +7,18 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+
             Console.OutputEncoding = Encoding.UTF8;
 
-            int x=1, y=2;
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+            
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
+
+            string x="aa", y="bb";
             string str1;
             str1 = "isto é uma string";
 
@@ -26,7 +35,7 @@ namespace ManyStrings
             Console.WriteLine(str2Concat);
             
             string str1Interp = $"quantos sapos?: {str2Concat}";
-            string str2Interp = $"soma de {x} + {y}: {y+x}";
+            string str2Interp = $"soma de {x} + {y}: {x+y}";
             Console.WriteLine(str1Interp);
             Console.WriteLine(str2Interp);
 
