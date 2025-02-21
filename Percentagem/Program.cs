@@ -10,23 +10,22 @@ namespace Percentagem
             CultureInfo.DefaultThreadCurrentCulture = 
             CultureInfo.InvariantCulture;   
 
-            string n1 = Console.ReadLine();
-            string n2 = Console.ReadLine();
-            string n3 = Console.ReadLine();
-            string n4 = Console.ReadLine();
-           
-           
-            //mostrar numeros pedidos
-            Console.WriteLine($"{float.Parse(n1)}");
-            Console.WriteLine($"{float.Parse(n2)}");
-            Console.WriteLine($"{float.Parse(n3)}");
-            Console.WriteLine($"{float.Parse(n4)}");
+            float[] pedidos;
+            pedidos = new float[4];
 
-            //percentagem
-            Console.WriteLine($"{float.Parse(n1),8:p2}");
-            Console.WriteLine($"{float.Parse(n2),8:p2}");
-            Console.WriteLine($"{float.Parse(n3),8:p2}");
-            Console.WriteLine($"{float.Parse(n4),8:p2}");
+            // Pedir valores
+            for (int i = 0; i < 4; i++)
+            {
+                pedidos[i] = float.Parse(Console.ReadLine());
+            }
+
+            // Mostrar com percentagens e alinhado a direita
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine($"{pedidos[i],8:p2}");
+            }
+           
+           
         }
     }
 }
